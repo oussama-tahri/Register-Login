@@ -258,7 +258,7 @@ public class EmployeeController {
 ```
 
 Security measures need to implemented 
-Create a file  SecurityConfig for managing the Security password
+Create a file  SecurityConfig for managing the Security password and in our main class we modify @SpringBootApplication as the following : ****@SpringBootApplication(exclude = SecurityAutoConfiguration.class)****
 
 ```java
 package com.tahrioussama.Registation.config;
